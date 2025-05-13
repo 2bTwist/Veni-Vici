@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 function App() {
   const [backgroundDogs, setBackgroundDogs] = useState([]);
   const [dog, setDog] = useState(null);
+  const [history, setHistory] = useState([]);
   const [loading, setLoading] = useState(false);
   const [banList, setBanList] = useState({
     name: [],
@@ -50,6 +51,7 @@ function App() {
         validDog = data[0];
       }
       setDog(validDog);
+      setHistory(prev => [validDog, ...prev])
     } catch (err) {
       console.error(err);
     } finally {
@@ -99,6 +101,32 @@ function App() {
           <img key={i} src={url} alt="bg dog" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         ))}
       </div>
+
+      {/* History Sidebar */}
+      <div style={{
+        width: '250px',
+        minHeight: '600px',
+        background: 'rgba(255,255,255,0.1)',
+        backdropFilter: 'blur(10px)',
+        borderRadius: '1rem',
+        padding: '1rem',
+        boxShadow: '0 4px 20px rgba(0,0,0,0.3)',
+        color: '#fff',
+        overflowY: 'auto'
+      }}>
+        <h3 style={{ marginBottom: '1rem' }}>👀 Who have we seen so far?</h3>
+        {history.length === 0 && <p style={{ color: '#ccc' }}>No dogs yet</p>}
+        {history.map((item, index) => {
+          const breed = item.breeds[0];
+          return (
+            <div key={index} style={{ marginBottom: '1rem', background: 'rgba(0,0,0,0.2)', padding: '0.5rem', borderRadius: '0.5rem' }}>
+              <img src={item.url} alt="dog" style={{ width: '100%', borderRadius: '0.5rem' }} />
+              <p style={{ margin: '0.5rem 0 0.25rem', fontWeight: 'bold' }}>{breed?.name || 'Unknown'}</p>
+            </div>
+          );
+        })}
+      </div>
+
 
       {/* Main Card */}
       <div style={{
