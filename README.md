@@ -45,10 +45,10 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <div>
-     <a href="https://i.imgur.com/hvwtKwK.gif">
-       <img style="width:300px;" src="https://i.imgur.com/hvwtKwK.gif">
-     </a>
- </div>
+  <a href="https://i.imgur.com/hvwtKwK.gif">
+    <img style="width:300px;" src="https://i.imgur.com/hvwtKwK.gif">
+  </a>
+</div>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ... [ScreenToGif](https://www.screentogif.com/) for Windows
