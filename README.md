@@ -44,9 +44,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<div>
-    <img src="https://i.imgur.com/hvwtKwK.gif">
-</div>
+
+![Walkthrough](https://i.imgur.com/hvwtKwK.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ... [ScreenToGif](https://www.screentogif.com/) for Windows
