@@ -39,14 +39,14 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [X] List anything else that you added to improve the site's functionality!
-  - Implemeneted a background grid wallpaper
+  - Implemented a background grid wallpaper
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
 <div>
-     <a href="https://imgur.com/a/JuHNglb">
-       <img style="max-width:300px;" src="https://imgur.com/a/JuHNglb">
+     <a href="https://imgur.com/a/DIDtl6F">
+       <img style="max-width:300px;" src="https://imgur.com/a/DIDtl6F">
      </a>
  </div>
 
