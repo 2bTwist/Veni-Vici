@@ -49,7 +49,7 @@ Here's a walkthrough of implemented user stories:
 
 <div>
      <a href="https://i.imgur.com/ItFj0iY.gif">
-       <img style="max-width:300px;" src="https://i.imgur.com/ItFj0iY.gif">
+       <img style="max-width:300px;" src="https://i.imgur.com/hvwtKwK.gif">
      </a>
  </div>
  
