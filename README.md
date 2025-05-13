@@ -45,8 +45,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <div>
-     <a href="https://i.imgur.com/ZXY1XL3.gif">
-       <img style="width:300px;" src="https://i.imgur.com/ZXY1XL3.gif">
+     <a href="https://i.imgur.com/hvwtKwK.gif">
+       <img style="width:300px;" src="https://i.imgur.com/hvwtKwK.gif">
      </a>
  </div>
 
